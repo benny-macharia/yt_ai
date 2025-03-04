@@ -1,0 +1,9 @@
+extract_transcript_task:
+  description: "Retrieve the transcript of the YouTube video from the provided URL: {youtube_link}."
+  expected_output: "A full transcript of the video in plain text format."
+  agent: transcriber
+
+summarize_task:
+  description: "Summarize the provided transcript from the previous task into a short, concise paragraph."
+  expected_output: "A BRIEF and clear SUMMARY of the video's content."
+  agent: summarizer

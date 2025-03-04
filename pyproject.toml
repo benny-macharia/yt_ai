@@ -1,0 +1,21 @@
+[project]
+name = "yt_ai"
+version = "0.1.0"
+description = "yt-ai using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.86.0,<1.0.0", 
+    "youtube_transcript_api"
+]
+
+[project.scripts]
+yt_ai = "yt_ai.main:run"
+run_crew = "yt_ai.main:run"
+train = "yt_ai.main:train"
+replay = "yt_ai.main:replay"
+test = "yt_ai.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

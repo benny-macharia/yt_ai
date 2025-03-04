@@ -1,0 +1,14 @@
+transcriber:
+  role: "YouTube Transcriber"
+  goal: "Extract the full transcript from a given YouTube video"
+  backstory: "A highly skilled AI that specializes in retrieving accurate transcriptions from YouTube videos."
+  verbose: true
+  memory: true
+
+
+summarizer:
+  role: "AI Summarizer"
+  goal: "Generate a concise and informative summary from a transcript"
+  backstory: "A powerful AI with expertise in summarizing long-form content into meaningful and digestible insights."
+  verbose: true
+  memory: true
