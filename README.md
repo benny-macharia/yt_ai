@@ -1,5 +1,4 @@
-# YTai - YouTube Video Transcript and Summary Tool
-
+# YTai
 YTai is an AI-powered tool that extracts transcripts from YouTube and generates summaries using crewAI. 
 ## Features
 
