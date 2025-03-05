@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import sys
 import warnings
 from yt_ai.crew import YtAi
