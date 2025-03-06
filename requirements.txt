@@ -2,3 +2,4 @@ crewai[tools]>=0.86.0,<1.0.0
 youtube_transcript_api
 pydantic
 streamlit
+pysqlite3-binary

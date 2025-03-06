@@ -1,5 +1,9 @@
 import sys
 import warnings
+from yt_ai.patch_sqlite import patch_sqlite
+
+patch_sqlite()
+
 from yt_ai.crew import YtAi
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
